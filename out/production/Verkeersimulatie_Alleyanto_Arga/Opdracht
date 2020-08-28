@@ -1,0 +1,40 @@
+Opdracht:
+
+Schrijf een JAVA programma waarin de bovenstaande informatie verwerkt wordt.
+Implementeer de verkeerslichten en alle 4 sensoren.
+
+De implementatie van tenminste 2 datastructuren (geen JAVA collection implementatie toegestaan) naast arrays en arraylist is vereist.
+Toegestaan zijn de volgende zelf geïmplementeerde datastructuren: queues, stacks, linked lists en binary trees.
+
+Verder dient er gebruik gemaakt te worden van voertuig objecten die minimaal de volgende informatie bevatten:
+- Een volgnummer op het aangegeven wegdek
+- Een kentekennummer (conform de Surinaamse combinaties van letters & cijfers)
+- Een prioriteit indicator in het geval van speciale voertuigen. B.v politie, ambulance en brandweer voertuigen met sirene.
+(Let op! Deze special voertuigen dienen eerst op te rijden volgens prioriteit alvorens de eerste verkeersronden start)
+
+Er dient dynamisch door de applicatie berekent te worden hoeveel keer de verkeerslichten een
+ronde moeten maken om alle voertuigen op te laten rijden.
+
+Wanneer alle auto’s zijn opgereden dient de applicatie een “Reverse Playback” te doen waarbij de
+voertuigen een voor een terug worden geplaatst op het juiste wegdek met de juiste positie. Kort
+gezegd terug spelen naar de beginsituatie.
+
+Optioneel (Hoger Cijfer)
+1. Na de reverse playback dienen alle voertuigen opgeslagen te worden in een binary tree.
+Achteraf moet men in staat zijn om te zoeken (big O -> log n) naar voertuigen op basis van hun
+kenteken (letters & cijfers)
+2. Gebruik een linkedlist om de queues en stacks te implementeren.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Let op:
+Twee dagen VÓÓR de (her)presentatie moet het beroepsproduct ingeleverd worden.
+Tijdens de presentatie wordt getoetst op het gebruik van algoritmes en datastructuren. Het
+belangrijkste aspect is dat je kan aantonen (middels code en onderbouwing van je
+argumenten) dat de opdracht en leerdoelen begrepen zijn.
+
+Het beroeps product wordt individueel vervaardigd, gepresenteerd en verdedigd.
+ALLE BEROEPSPRODUCT FUNCTIONALITEITEN DIENEN TE WERKEN. INDIEN DIT
+NIET HET GEVAL IS WORD DE STUDENT NIET IN DE GELEGENHEID GESTELD OM
+HET BEROEPSPRODUCT TE VERDEDIGEN. DE BEURT KOMT DAN TE VERVALLEN.
+PLAGIAAT IS TEN STRENGSTE VERBODEN, WAAK ER A.U.B. VOOR!!!
