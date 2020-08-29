@@ -20,6 +20,25 @@ De volgorde van de speciale voertuigen van hoogste tot laagste prioriteit is: Po
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+Opdracht:
+
+Schrijf een JAVA programma waarin de bovenstaande informatie verwerkt wordt.
+Implementeer de verkeerslichten en alle 4 sensoren.
+
+De implementatie van tenminste 2 datastructuren (geen JAVA collection implementatie toegestaan) naast arrays en arraylist is vereist.
+Toegestaan zijn de volgende zelf geïmplementeerde datastructuren: queues, stacks, linked lists en binary trees.
+
+Verder dient er gebruik gemaakt te worden van voertuig objecten die minimaal de volgende informatie bevatten:
+- Een volgnummer op het aangegeven wegdek
+- Een kentekennummer (conform de Surinaamse combinaties van letters & cijfers)
+- Een prioriteit indicator in het geval van speciale voertuigen. B.v politie, ambulance en brandweer voertuigen met sirene.
+(Let op! Deze special voertuigen dienen eerst op te rijden volgens prioriteit alvorens de eerste verkeersronden start)
+
+Er dient dynamisch door de applicatie berekent te worden hoeveel keer de verkeerslichten een
+ronde moeten maken om alle voertuigen op te laten rijden.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 De werking van de sensoren:
 * Indien niet aan de conditie van de sensor wordt voldaan functioneert het verkeerslicht zonder sensor werking.
 
@@ -44,7 +63,7 @@ Wanneer alle auto’s zijn opgereden dient de applicatie een “Reverse Playback
 voertuigen een voor een terug worden geplaatst op het juiste wegdek met de juiste positie. Kort
 gezegd terug spelen naar de beginsituatie.
 
-Optioneel (Hoger Cijfer)
+Optioneel 
 1. Na de reverse playback dienen alle voertuigen opgeslagen te worden in een binary tree.
 Achteraf moet men in staat zijn om te zoeken (big O -> log n) naar voertuigen op basis van hun
 kenteken (letters & cijfers)
